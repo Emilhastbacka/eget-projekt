@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="logo">
+            <img src="img/Spotify Logo (PNG1080p) - Vector69Com.png" alt="">
+        </div>
+
+        <div class="right-side">
+
+            <a href="#">Premium</a>
+            <a href="#">Support</a>
+            <a href="#">Download</a>
+            <ul class="line"></ul>
+            <a href="#">Sign in</a>
+            <a href="#">Log in</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+        <div class="circle circle3"></div>
+
+        <div class="container">
+            <h1>Listening is <span>everything</span></h1>
+            <p>Millions of songs and podcasts. No credit card needed.</p>
+            <button id="knapp">get spotify free</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="all-links-container">
+            <div class="all-links">
+                <div class="company">
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">For the Records</a>
+                </div>
+                <div class="communities">
+                    <h4>Communities</h4>
+                    <a href="#">For Artists</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Investors</a>
+                    <a href="#">Vendors</a>
+                </div>
+                <div class="usefull-links">
+                    <h4>Usefull Links</h4>
+                    <a href="#">Support</a>
+                    <a href="#">Web Player</a>
+                    <a href="#">Free Mobile App</a>
+                </div>
+            </div>
+        </div>
+        <div class="social-links">
+
+        </div>
+        <div class="bottom-links">
+            <a href="#">Legal</a>
+            <a href="#">Privacy Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookies</a>
+            <a href="#">About Ads</a>
+            <a href="#">Additional CA Privacy Disclosures</a>
+        </div>
+        <div class="copyright">
+            <a href="#"><i class="region"></i>USA</a>
+            <p><i class="yes-copyright"></i> 2022 Spotify AB</p>
+        </div>
+    </footer>
+
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="info">
+                <img class="last-picture" src="img/Spotify Logo (PNG1080p) - Vector69Com.png" alt="">
+                <h1>Registrera dig gratis för att börja<br>lyssna.</h1>
+                <button class="facebook-button">Registrera dig med Facebook</button>
+                <button class="google-button">Registera dig med Google</button>
+                <div class="strike">
+                    <span>Eller</span>
+                    <h2>Registera dig med din e-postadress</h2>
+                </div>
+                <div class="all-information">
+                    <div class="mail">
+                        <h5>Vad är din e-postadress?</h5>
+                        <input class="email" type="email" name="email" id="" placeholder="Ange din e-postadress. ">
+                    </div>
+                    <div class="mail">
+                        <h5>Bekräfta din e-postadress</h5>
+                        <input class="email" type="email" name="email" id="" placeholder="Ange din e-postadress igen.">
+                    </div>
+                    <div class="mail">
+                        <h5>Skapa ett lösenord</h5>
+                        <input class="password" type="password" name="password" id="" placeholder="Skapa ett lösenord.">
+                    </div>
+                    <div class="mail">
+                        <h5>Vad ska vi kalla dig?</h5>
+                        <input class="name" type="name" name="name" id="" placeholder="Ange ett profilnamn.">
+                        <h6>Det här visas på din profil.</h6>
+                    </div>
+
+                </div>
+
+
+                <div class="around">
+                    <h5>Vad är ditt födelsedatum?</h5>
+                </div>
+                <div class="born">
+                    <div class="months">
+                        <h6>Månad</h6>
+                        <select>
+                            <option value="" disabled selected>Månad</option>
+                            <option value="juu">Januari</option>
+                            <option value="juu">Februari</option>
+                            <option value="juu">Mars</option>
+                            <option value="juu">Aprill</option>
+                            <option value="juu">Juni</option>
+                            <option value="juu">Juli</option>
+                            <option value="juu">Augusti</option>
+                            <option value="juu">September</option>
+                            <option value="juu">Oktober</option>
+                            <option value="juu">November</option>
+                            <option value="juu">December</option>
+                        </select>
+                    </div>
+                    <div class="days">
+                        <h6>Dag</h6>
+                        <input class="dag" type="dag" name="dag" id="" placeholder="DD">
+                    </div>
+                    <div class="years">
+                        <h6>År</h6>
+                        <input class="year" type="year" name="year" id="" placeholder="ÅÅÅÅ">
+                    </div>
+                </div>
+                <h5 class="outside-gender">Vad är ditt kön?</h5>
+                <div class="gender">
+                    <span class="dot"></span>
+                    <h6>Man</h6>
+                    <span class="dot"></span>
+                    <h6>Kvinna</h6>
+                    <span class="dot"></span>
+                    <h6>Icke-binär</h6>
+                </div>
+                <div class="boxs">
+                    <p> <span class="info-box"></span> Dela min registreringsinformation med Spotifys <br>
+                        innehållsleverantörer för
+                        marknadsföringsändamål.</p>
+                </div>
+                <div class="accept">
+                    <p>Genom att klicka på Registrera dig samtycker du till Spotifys <a href="#">användningsvillkor</a>.
+                    </p>
+                    <p> Mer information om hur Spotify samlar in, använder, delar och skyddar dina <br> personuppgifter
+                        finns
+                        i <a href="#">Spotifys integritetspolicy</a>.</p>
+                </div>
+                <div class="last-button">
+                    <button class="register">Registrera dig</button>
+                    <h5>Har du ett konto? <a href="#">Logga in</a>.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
